@@ -3,7 +3,7 @@ Feature: SauceDemo
 A short summary of the feature
 
 Background:
-    Given a shopping website navigated through 'https://www.saucedemo.com/' url
+    Given a shopping website navigated through 'https://saucedemo.com/' url
 
 @e2e @product-view
 Scenario: View product information
