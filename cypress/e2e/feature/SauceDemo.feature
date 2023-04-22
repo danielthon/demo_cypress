@@ -1,6 +1,6 @@
 Feature: SauceDemo
 
-A short summary of the feature
+Tests end-to-end to cover features related to product and checkout.
 
 Background:
     Given a shopping website navigated through 'https://saucedemo.com/' url
