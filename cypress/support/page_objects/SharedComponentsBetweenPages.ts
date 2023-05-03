@@ -8,6 +8,6 @@ export default class SharedComponentsBetweenPages {
     resetAppState() {
       this.elements.btnOpenSideMenu().click();
       this.elements.btnResetAppState().click();
-      cy.reload();
+      cy.reload(true);
     }
 }

@@ -25,6 +25,7 @@ export default defineConfig({
       // Make sure to return the config object as it might have been modified by the plugin.
       return config;
     },
+    experimentalStudio: true,
     experimentalWebKitSupport: true,
   },
 });
