@@ -20,6 +20,7 @@
     "@badeball/cypress-cucumber-preprocessor": "^16.0.3",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
     "cypress": "^12.10.0",
+    "playwright-webkit": "^1.33.0",
     "typescript": "^5.0.4"
   },
   "cypress": {

@@ -31,6 +31,10 @@ Given("I am logged as {string} with password {string} in the products page", (us
     loginPage.login(username,password)
 });
 
+Given("the shopping cart is empty", () => {
+    sharedComponentsBetweenPages.resetAppState()
+});
+
 // [When] functions
 
 When("I sort the products by {string}", (order) => {
@@ -70,10 +74,4 @@ Then("the {string} product description should be {string}", (productName, produc
 
 Then("the {string} product should be listed in the products", (productName) => {
     checkoutStep2.assertCheckoutProductTitle(productName)
-});
-
-// [After] functions
-
-After({ tags: "@cart" }, () => {
-    sharedComponentsBetweenPages.resetAppState()
 });

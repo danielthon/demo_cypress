@@ -15,6 +15,7 @@ Scenario: View product information
 @e2e @cart @checkout
 Scenario Outline: Checkout product
 	Given I am logged as '<username>' with password '<password>' in the products page
+	And the shopping cart is empty
 	When I add 'Sauce Labs Bike Light' product to the cart
 	And I click on the cart
 	And I proceed to checkout
