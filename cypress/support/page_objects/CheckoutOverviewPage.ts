@@ -1,4 +1,4 @@
-export default class CheckoutYourInformationPage {
+export default class CheckoutOverviewPage {
 
     elements = {
         lblFirstCartItemName: () => cy.get(".cart_list .inventory_item_name"),
