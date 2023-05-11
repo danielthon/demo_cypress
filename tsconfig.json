@@ -4,7 +4,7 @@
         "allowSyntheticDefaultImports": true,
         "baseUrl": "./",
         "paths": {
-            "@pageObjects/*": ["cypress/support/page_objects/*"]
+            "@pageObjects/*": ["cypress/support/pages/*"]
         }
     }
 }

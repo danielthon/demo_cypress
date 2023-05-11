@@ -1,11 +1,11 @@
 import { Given, When, Then, After } from "@badeball/cypress-cucumber-preprocessor"
-import LoginPage from '@pageObjects/LoginPage'
-import InventoryPage from '@pageObjects/InventoryPage'
-import InventoryItemPage from '@pageObjects/InventoryItemPage'
-import SharedComponentsBetweenPages from '@pageObjects/SharedComponentsBetweenPages'
-import CartPage from '@pageObjects/CartPage'
-import CheckoutYourInformationPage from '@pageObjects/CheckoutYourInformationPage'
-import CheckoutOverviewPage from '@pageObjects/CheckoutOverviewPage'
+import LoginPage from 'cypress/support/pages/LoginPage'
+import InventoryPage from 'cypress/support/pages/InventoryPage'
+import InventoryItemPage from 'cypress/support/pages/InventoryItemPage'
+import SharedComponentsBetweenPages from 'cypress/support/pages/SharedComponentsBetweenPages'
+import CartPage from 'cypress/support/pages/CartPage'
+import CheckoutYourInformationPage from 'cypress/support/pages/CheckoutYourInformationPage'
+import CheckoutOverviewPage from 'cypress/support/pages/CheckoutOverviewPage'
 
 const loginPage = new LoginPage
 const inventoryPage = new InventoryPage
